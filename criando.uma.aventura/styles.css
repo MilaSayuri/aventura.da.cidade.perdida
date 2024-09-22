@@ -1,0 +1,37 @@
+body {
+    background-color: #f1efe7;
+    color: #00070D;
+    font-family: "Playpen Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+}
+
+button {
+    background-color: #cccbc4;
+    color: #050D26;
+    font-family: "Playpen Sans", sans-serif;
+}
+
+.passo {
+   display: none;
+}
+
+.passo.ativo {
+   display: block;
+}
+
+main {
+    max-width: 90%;
+    text-align: center;
+}
+
+img {
+    min-width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    max-width: 400px;
+    max-height: 400px;
+}
